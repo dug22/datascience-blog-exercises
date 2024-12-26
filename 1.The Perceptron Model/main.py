@@ -41,7 +41,6 @@ def train_perceptron():
     print(f"Accuracy: {accuracy * 100:.2f}%")
 
     df = pd.DataFrame({
-        'Sample': list(range(len(X))),
         'Prediction': predictions,
         'Actual': actual_results
     })
